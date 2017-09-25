@@ -1,6 +1,6 @@
 # Inversed-Indexing-MapReduce
 
-1. Inversed Indexing Definition
+**Inversed Indexing Definition**
 
 Inversed indexing is a batch processing to sort documents for each popular keyword, so that it makes easier and faster for document-retrieval requests to find documents with many hits for a set of user-given keywords. 
 
