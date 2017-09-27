@@ -10,7 +10,9 @@ I installed the Hadoop File System on the cluster of 4 machines for testing on a
 
 ## Implementation Details
 Map function: read from one line, and find the corresponding words from the args. Each words in the args be a list of keys, and if one of the keys been found, the corresponding filename and 1 be the value. 
+
 Reduce function: Create a hash map. For particular keys, gather all the values together according to the filename. Put the values in the hash map.
+
 Combine function: Combine the values in one node before reduce, which can reduce the memory usage.
 
 
